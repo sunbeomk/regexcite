@@ -1,0 +1,26 @@
+---
+title: "regexcite"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{regexcite}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(regexcite)
+```
+
+```{r}
+# Add two numbers together
+add <- function(a, b) a + b
+add(10, 20)
+```
+
