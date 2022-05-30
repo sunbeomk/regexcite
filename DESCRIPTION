@@ -23,3 +23,5 @@ Depends:
 LazyData: true
 LinkingTo: 
     Rcpp
+URL: https://github.com/sunbeomk/regexcite
+BugReports: https://github.com/sunbeomk/regexcite/issues
