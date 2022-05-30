@@ -76,3 +76,4 @@ str_split_one(y, pattern = stringr::fixed("."))
 #> [1] "192" "168" "0"   "1"
 ```
 # regexcite
+# regexcite
