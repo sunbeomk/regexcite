@@ -3,3 +3,5 @@
 export(add)
 export(str_split_one)
 export(timesTwo)
+importFrom(Rcpp,evalCpp)
+useDynLib(regexcite, .registration = TRUE)
